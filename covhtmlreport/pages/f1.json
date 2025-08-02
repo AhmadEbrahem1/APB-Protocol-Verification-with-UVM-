@@ -1,0 +1,36 @@
+var g_data = {
+f7:{
+scopes:[{link:'z.htm?f=0&s=7',val:'work.master_bridge'}]
+,FSMs:[{dummy:0}
+,{anchor:'cvg212',items:[{c:'G',p:'100.00',z:'state'}
+,{cr:'c',s:'1',z:'IDLE',h:'52',c:'g'}
+,{cr:'c',z:'IDLE -&gt; SETUP',h:'30',c:'g'}
+,{cr:'c',s:'1',z:'SETUP',h:'74',c:'g'}
+,{cr:'c',z:'SETUP -&gt; IDLE',h:'16',c:'g'}
+,{cr:'c',z:'SETUP -&gt; ENABLE',h:'58',c:'g'}
+,{cr:'c',s:'1',z:'ENABLE',h:'102',c:'g'}
+,{cr:'c',z:'ENABLE -&gt; IDLE',h:'10',c:'g'}
+,{cr:'c',z:'ENABLE -&gt; SETUP',h:'44',c:'g'}
+]}
+
+],
+},
+f167:{
+scopes:[{s:'12',b:'1',val:'testbench'},{s:'60',b:'0',val:'dut'},{link:'z.htm?f=0&s=167',val:'dut_mas'}]
+,FSMs:[{dummy:0}
+,{anchor:'cvg212',items:[{c:'G',p:'100.00',z:'state'}
+,{cr:'c',s:'1',z:'IDLE',h:'52',c:'g'}
+,{cr:'c',z:'IDLE -&gt; SETUP',h:'30',c:'g'}
+,{cr:'c',s:'1',z:'SETUP',h:'74',c:'g'}
+,{cr:'c',z:'SETUP -&gt; IDLE',h:'16',c:'g'}
+,{cr:'c',z:'SETUP -&gt; ENABLE',h:'58',c:'g'}
+,{cr:'c',s:'1',z:'ENABLE',h:'102',c:'g'}
+,{cr:'c',z:'ENABLE -&gt; IDLE',h:'10',c:'g'}
+,{cr:'c',z:'ENABLE -&gt; SETUP',h:'44',c:'g'}
+]}
+
+],
+},
+dummyEnd:0
+};
+processFsmData(g_data);
